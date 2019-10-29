@@ -95,4 +95,5 @@ var classSelect =document.getElementById('classSelect');
 majorSelect.onchange=function(){
     classSelect.options.length = 0;
     createOption(classSelect,classSelectArr[collegeSelect.value][majorSelect.value])
+
 };
